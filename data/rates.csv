@@ -1,0 +1,73 @@
+age_min,age_max,risk_class,term_years,rate_per_1000
+25,29,Preferred Plus,10,0.40
+25,29,Preferred Plus,20,0.57
+25,29,Preferred Plus,30,0.83
+25,29,Preferred,10,0.50
+25,29,Preferred,20,0.71
+25,29,Preferred,30,1.03
+25,29,Standard,10,0.67
+25,29,Standard,20,0.95
+25,29,Standard,30,1.38
+25,29,Tobacco,10,1.60
+25,29,Tobacco,20,2.28
+25,29,Tobacco,30,3.31
+30,34,Preferred Plus,10,0.44
+30,34,Preferred Plus,20,0.63
+30,34,Preferred Plus,30,0.91
+30,34,Preferred,10,0.55
+30,34,Preferred,20,0.79
+30,34,Preferred,30,1.14
+30,34,Standard,10,0.74
+30,34,Standard,20,1.05
+30,34,Standard,30,1.52
+30,34,Tobacco,10,1.76
+30,34,Tobacco,20,2.52
+30,34,Tobacco,30,3.65
+35,39,Preferred Plus,10,0.57
+35,39,Preferred Plus,20,0.81
+35,39,Preferred Plus,30,1.17
+35,39,Preferred,10,0.71
+35,39,Preferred,20,1.01
+35,39,Preferred,30,1.47
+35,39,Standard,10,0.95
+35,39,Standard,20,1.35
+35,39,Standard,30,1.96
+35,39,Tobacco,10,2.27
+35,39,Tobacco,20,3.24
+35,39,Tobacco,30,4.70
+40,44,Preferred Plus,10,0.82
+40,44,Preferred Plus,20,1.17
+40,44,Preferred Plus,30,1.70
+40,44,Preferred,10,1.02
+40,44,Preferred,20,1.46
+40,44,Preferred,30,2.12
+40,44,Standard,10,1.37
+40,44,Standard,20,1.95
+40,44,Standard,30,2.83
+40,44,Tobacco,10,3.28
+40,44,Tobacco,20,4.68
+40,44,Tobacco,30,6.79
+45,49,Preferred Plus,10,1.28
+45,49,Preferred Plus,20,1.83
+45,49,Preferred Plus,30,2.65
+45,49,Preferred,10,1.60
+45,49,Preferred,20,2.29
+45,49,Preferred,30,3.32
+45,49,Standard,10,2.14
+45,49,Standard,20,3.05
+45,49,Standard,30,4.42
+45,49,Tobacco,10,5.12
+45,49,Tobacco,20,7.32
+45,49,Tobacco,30,10.61
+50,54,Preferred Plus,10,2.00
+50,54,Preferred Plus,20,2.85
+50,54,Preferred Plus,30,4.13
+50,54,Preferred,10,2.49
+50,54,Preferred,20,3.56
+50,54,Preferred,30,5.17
+50,54,Standard,10,3.33
+50,54,Standard,20,4.75
+50,54,Standard,30,6.89
+50,54,Tobacco,10,7.98
+50,54,Tobacco,20,11.40
+50,54,Tobacco,30,16.53

@@ -1,0 +1,41 @@
+# Models in the benchmark. Any endpoint that speaks the OpenAI chat-completions
+# format works. The two below run through Hugging Face Inference Providers.
+#
+# Before a run:
+#   * check that each model id is still served and supports tool calling
+#     (https://huggingface.co/models?inference_provider=all)
+#   * fill in price_in / price_out (US dollars per million tokens) from the
+#     provider's pricing page; left at 0, the cost column reads 0
+
+[models.gpt-oss-120b]
+model = "openai/gpt-oss-120b"
+base_url = "https://router.huggingface.co/v1"
+api_key_env = "HF_TOKEN"
+max_tokens = 2000
+price_in = 0.0
+price_out = 0.0
+
+[models.gpt-oss-20b]
+model = "openai/gpt-oss-20b"
+base_url = "https://router.huggingface.co/v1"
+api_key_env = "HF_TOKEN"
+max_tokens = 2000
+price_in = 0.0
+price_out = 0.0
+
+# Add a third and fourth model here, for example one from the provider your
+# target team uses. Set temperature = 0.0 unless the model rejects it.
+#
+# [models.my-model]
+# model = "<model id>"
+# base_url = "<OpenAI-compatible base URL>"
+# api_key_env = "<NAME_OF_ENV_VAR>"
+# price_in = 0.0
+# price_out = 0.0
+[models."llama-3.3-70b"]
+model = "meta-llama/Llama-3.3-70B-Instruct"
+base_url = "https://router.huggingface.co/v1"
+api_key_env = "HF_TOKEN"
+max_tokens = 2000
+price_in = 0.0
+price_out = 0.0
